@@ -99,10 +99,10 @@ This document provides the actual site copy for the private design preview. Publ
     ]
   },
   "business": {
-    "email": "",
-    "phone": "",
+    "email": "anpastry19@gmail.com",
+    "phone": "+420777437388",
     "address": "Branická 147/65, 147 00 Praha 4 – Braník",
-    "companyId": "",
+    "companyId": "23184671",
     "vatId": "",
     "contactForm": {
       "provider": "",
@@ -116,6 +116,22 @@ This document provides the actual site copy for the private design preview. Publ
       "linkedin": "",
       "facebook": "",
       "x": ""
+    },
+    "operatorName": "Thi Kim Tuyen Nguyen",
+    "openingHours": {
+      "source": "foodora – údaje předané operátorem 2026-11-17",
+      "weekdays": "09:00–19:00",
+      "weekends": "09:15–19:00",
+      "timezone": "Europe/Prague",
+      "requiresOperatorConfirmation": true
+    },
+    "delivery": {
+      "foodora": {
+        "listed": true,
+        "url": "",
+        "linkVerified": false
+      },
+      "otherPlatforms": []
     }
   },
   "public": {
@@ -217,7 +233,15 @@ This document provides the actual site copy for the private design preview. Publ
           "error": "Zprávu se nepodařilo odeslat. Zkuste to znovu.",
           "unavailable": "Odesílání zpráv zatím není aktivní. Napište nám přes Instagram.",
           "required": "Vyplňte prosím povinná pole."
-        }
+        },
+        "emailLabel": "E-mail",
+        "phoneLabel": "Telefon",
+        "hoursLabel": "Otevírací doba",
+        "weekdaysLabel": "Pondělí–pátek",
+        "weekendsLabel": "Sobota–neděle",
+        "deliveryLabel": "Rozvoz",
+        "foodoraLabel": "Foodora",
+        "hoursNotice": "Otevírací dobu doporučujeme před návštěvou ověřit."
       },
       "footer": {
         "tagline": "Káva, pečivo a malé radosti v Braníku."
@@ -337,7 +361,15 @@ This document provides the actual site copy for the private design preview. Publ
           "error": "We couldn't send your message. Please try again.",
           "unavailable": "Message sending is not active yet. Please contact us on Instagram.",
           "required": "Please fill in the required fields."
-        }
+        },
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "hoursLabel": "Opening hours",
+        "weekdaysLabel": "Monday–Friday",
+        "weekendsLabel": "Saturday–Sunday",
+        "deliveryLabel": "Delivery",
+        "foodoraLabel": "Foodora",
+        "hoursNotice": "Please confirm opening hours before visiting."
       },
       "footer": {
         "tagline": "Coffee, pastries and little pleasures in Braník."
@@ -441,7 +473,7 @@ This document provides the actual site copy for the private design preview. Publ
       },
       "style": "Warm modern artisan café; mobile-first editorial composition; generous whitespace; subtle motion."
     },
-    "publicContentRules": "Display only public locale copy, verified contact information and operator-requested room-hire claim. Never display unknown opening hours, prices, phone number, IČO, catering or fabricated reviews. The contact form is a visual preview and cannot send without a configured dedicated Worker; never simulate success.",
+    "publicContentRules": "Display only public locale copy and operator-supplied Foodora business contact details and hours, marked as pending confirmation; do not invent menu prices, catering, or review quotations. The form stays disabled until a dedicated Worker is configured; never simulate success. Production remains disabled.",
     "development": {
       "indexing": false,
       "robots": "noindex, nofollow",
@@ -455,6 +487,15 @@ This document provides the actual site copy for the private design preview. Publ
       "status": "private-preview",
       "sourceAccess": "Public third-party reproductions of five individual Google review texts checked 2026-11-17.",
       "note": "These are attributed paraphrased summaries, not verbatim quotes. English translations drafted for review. No automatic Google API review sync or back-end dependencies."
+    },
+    "foodoraEvidence": {
+      "source": "foodora provider listing copied by operator 2026-11-17",
+      "operatorName": "Thi Kim Tuyen Nguyen",
+      "operatorAddress": "Poznaňská 437/29",
+      "companyId": "23184671",
+      "email": "anpastry19@gmail.com",
+      "phone": "+420777437388",
+      "note": "Provider address is evidence only, not the café's visitor address. The exact Foodora storefront URL and other delivery platforms remain unverified."
     }
   },
   "media": {
@@ -542,4 +583,4 @@ This document provides the actual site copy for the private design preview. Publ
   }
 }
 \`\`\`
-`.match(/```json\s*([\s\S]*?)```/),Yu=JSON.parse(Ju?.[1]??`{}`),Xu={brandName:Yu.brand?.name,logo:Yu.brand?.logo,media:Yu.media,reviews:Yu.reviews,contactForm:Yu.business?.contactForm,languages:Yu.site?.languages??[`cs`,`en`],fallback:Yu.site?.fallbackLanguage??`cs`,address:Yu.business?.address,instagram:Yu.business?.social?.instagram,canonical:Yu.internal?.development?.canonical,robots:Yu.internal?.development?.robots,locales:Yu.public},Zu=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(Xu.address)}`,Qu=Object.assign({"../../assets/an-pastry-logo.png":Iu,"../../assets/an-pastry-logo.svg":Lu,"../../assets/gallery/1.jpg":Ru,"../../assets/gallery/2.jpg":zu,"../../assets/gallery/3.jpg":Bu,"../../assets/gallery/4.jpg":Vu,"../../assets/gallery/5.jpg":Hu,"../../assets/gallery/6.jpg":Uu,"../../assets/gallery/7.jpg":Wu,"../../assets/gallery/8.jpg":Z,"../../assets/gallery/9.jpg":Gu,"../../assets/video/flover_approved_1080.mp4":Ku,"../../assets/video/flowers_approved_720.mp4":qu}),$u=e=>{let t=Qu[`../../${e}`];if(!t)throw Error(`Missing source asset referenced in content.md: ${e}`);return t},ed=`https://www.google.com/maps?q=${encodeURIComponent(Xu.address)}&output=embed`;function td(e,t={}){if(typeof window>`u`)return;window.__lovableEvents?.captureException?.(e,{source:`react_error_boundary`,route:window.location.pathname,...t},{mechanism:`react_error_boundary`,handled:!1,severity:`error`});let n=e instanceof Error?e.stack:void 0;window.__lovableReportRuntimeError?.({message:rd(e),...n!==void 0&&{stack:n},filename:window.location.pathname})}var nd=2e3;function rd(e){if(e instanceof Response)return`Response ${e.status}${e.url?` at ${e.url}`:``}`;if(e instanceof Error)return e.message;if(typeof e==`string`)return e;let{message:t}=e??{};if(typeof t==`string`&&t.length>0)return t;try{return JSON.stringify(e)?.slice(0,nd)??String(e)}catch{return String(e)}}function id(){return(0,V.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,V.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,V.jsx)(`h1`,{className:`text-7xl font-bold text-foreground`,children:`404`}),(0,V.jsx)(`h2`,{className:`mt-4 text-xl font-semibold text-foreground`,children:`Page not found`}),(0,V.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`The page you're looking for doesn't exist or has been moved.`}),(0,V.jsx)(`div`,{className:`mt-6`,children:(0,V.jsx)($c,{to:`/`,className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Go home`})})]})})}function ad({error:e,reset:t}){console.error(e);let n=rc();return(0,B.useEffect)(()=>{td(e,{boundary:`tanstack_root_error_component`})},[e]),(0,V.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,V.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,V.jsx)(`h1`,{className:`text-xl font-semibold tracking-tight text-foreground`,children:`This page didn't load`}),(0,V.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`Something went wrong on our end. You can try refreshing or head back home.`}),(0,V.jsxs)(`div`,{className:`mt-6 flex flex-wrap justify-center gap-2`,children:[(0,V.jsx)(`button`,{onClick:()=>{n.invalidate(),t()},className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Try again`}),(0,V.jsx)(`a`,{href:`/`,className:`inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent`,children:`Go home`})]})]})})}var od=rl()({head:()=>({meta:[{charSet:`utf-8`},{name:`viewport`,content:`width=device-width, initial-scale=1`},{title:Xu.locales.cs.seo.title},{name:`description`,content:Xu.locales.cs.seo.description},{property:`og:title`,content:Xu.locales.cs.seo.title},{property:`og:description`,content:Xu.locales.cs.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}],links:[{rel:`stylesheet`,href:Fu},{rel:`preconnect`,href:`https://fonts.googleapis.com`},{rel:`preconnect`,href:`https://fonts.gstatic.com`,crossOrigin:`anonymous`},{rel:`stylesheet`,href:`https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap`},{rel:`icon`,href:$u(Xu.logo),type:`image/svg+xml`}]}),shellComponent:sd,component:cd,notFoundComponent:id,errorComponent:ad});function sd({children:e}){return(0,V.jsxs)(`html`,{lang:`cs`,children:[(0,V.jsx)(`head`,{children:(0,V.jsx)(jl,{})}),(0,V.jsxs)(`body`,{children:[e,(0,V.jsx)(Nl,{})]})]})}function cd(){let{queryClient:e}=od.useRouteContext();return(0,V.jsx)(Pu,{client:e,children:(0,V.jsx)(gl,{})})}var ld=`modulepreload`,ud=function(e){return`/`+e},dd={},fd=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=ud(t,n),t=s(t),t in dd)return;dd[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:ld,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},pd=()=>fd(()=>import(`./routes-CQDl8M7s.js`),[]),md=Xu.locales.cs,hd=ol(`/`)({head:()=>({meta:[{title:md.seo.title},{name:`description`,content:md.seo.description},{property:`og:title`,content:md.seo.title},{property:`og:description`,content:md.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`},...Xu.robots?[{name:`robots`,content:Xu.robots}]:[]],links:Xu.canonical?[{rel:`canonical`,href:Xu.canonical}]:[]}),component:sl(pd,`component`)}),[gd,,,,,,]=Xu.media.gallery.photos.map($u),_d={IndexRoute:hd.update({id:`/`,path:`/`,getParentRoute:()=>od})},vd=od._addFileChildren(_d),yd=()=>Sl({routeTree:vd,context:{queryClient:new Mu},scrollRestoration:!0,defaultPreloadStaleTime:0});async function Q(){let e=await yd(),t;if(Bl){let n=await Bl.getOptions();n.serializationAdapters=n.serializationAdapters??[],window.__TSS_START_OPTIONS__=n,t=n.serializationAdapters,e.options.defaultSsr=n.defaultSsr}else t=[],window.__TSS_START_OPTIONS__={serializationAdapters:t};return t.push(Vs),e.options.serializationAdapters&&t.push(...e.options.serializationAdapters),e.update({basepath:``,serializationAdapters:t}),e.stores.ids.get().length||await Jn(e),e}var bd=Q;function xd(){return bd().finally(()=>window.$_TSR?.h())}var Sd;function Cd(){return Sd||=xd(),(0,V.jsx)(qs,{promise:Sd,children:e=>(0,V.jsx)(Tl,{router:e})})}var wd=g();(0,B.startTransition)(()=>{(0,wd.hydrateRoot)(document,(0,V.jsx)(B.StrictMode,{children:(0,V.jsx)(Cd,{})}))});export{Gs as a,Zu as i,Xu as n,u as o,ed as r,c as s,$u as t};
+`.match(/```json\s*([\s\S]*?)```/),Yu=JSON.parse(Ju?.[1]??`{}`),Xu={brandName:Yu.brand?.name,logo:Yu.brand?.logo,media:Yu.media,reviews:Yu.reviews,contactForm:Yu.business?.contactForm,languages:Yu.site?.languages??[`cs`,`en`],fallback:Yu.site?.fallbackLanguage??`cs`,address:Yu.business?.address,instagram:Yu.business?.social?.instagram,canonical:Yu.internal?.development?.canonical,robots:Yu.internal?.development?.robots,locales:Yu.public},Zu=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(Xu.address)}`,Qu=Object.assign({"../../assets/an-pastry-logo.png":Iu,"../../assets/an-pastry-logo.svg":Lu,"../../assets/gallery/1.jpg":Ru,"../../assets/gallery/2.jpg":zu,"../../assets/gallery/3.jpg":Bu,"../../assets/gallery/4.jpg":Vu,"../../assets/gallery/5.jpg":Hu,"../../assets/gallery/6.jpg":Uu,"../../assets/gallery/7.jpg":Wu,"../../assets/gallery/8.jpg":Z,"../../assets/gallery/9.jpg":Gu,"../../assets/video/flover_approved_1080.mp4":Ku,"../../assets/video/flowers_approved_720.mp4":qu}),$u=e=>{let t=Qu[`../../${e}`];if(!t)throw Error(`Missing source asset referenced in content.md: ${e}`);return t},ed=`https://www.google.com/maps?q=${encodeURIComponent(Xu.address)}&output=embed`;function td(e,t={}){if(typeof window>`u`)return;window.__lovableEvents?.captureException?.(e,{source:`react_error_boundary`,route:window.location.pathname,...t},{mechanism:`react_error_boundary`,handled:!1,severity:`error`});let n=e instanceof Error?e.stack:void 0;window.__lovableReportRuntimeError?.({message:rd(e),...n!==void 0&&{stack:n},filename:window.location.pathname})}var nd=2e3;function rd(e){if(e instanceof Response)return`Response ${e.status}${e.url?` at ${e.url}`:``}`;if(e instanceof Error)return e.message;if(typeof e==`string`)return e;let{message:t}=e??{};if(typeof t==`string`&&t.length>0)return t;try{return JSON.stringify(e)?.slice(0,nd)??String(e)}catch{return String(e)}}function id(){return(0,V.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,V.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,V.jsx)(`h1`,{className:`text-7xl font-bold text-foreground`,children:`404`}),(0,V.jsx)(`h2`,{className:`mt-4 text-xl font-semibold text-foreground`,children:`Page not found`}),(0,V.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`The page you're looking for doesn't exist or has been moved.`}),(0,V.jsx)(`div`,{className:`mt-6`,children:(0,V.jsx)($c,{to:`/`,className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Go home`})})]})})}function ad({error:e,reset:t}){console.error(e);let n=rc();return(0,B.useEffect)(()=>{td(e,{boundary:`tanstack_root_error_component`})},[e]),(0,V.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,V.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,V.jsx)(`h1`,{className:`text-xl font-semibold tracking-tight text-foreground`,children:`This page didn't load`}),(0,V.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`Something went wrong on our end. You can try refreshing or head back home.`}),(0,V.jsxs)(`div`,{className:`mt-6 flex flex-wrap justify-center gap-2`,children:[(0,V.jsx)(`button`,{onClick:()=>{n.invalidate(),t()},className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Try again`}),(0,V.jsx)(`a`,{href:`/`,className:`inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent`,children:`Go home`})]})]})})}var od=rl()({head:()=>({meta:[{charSet:`utf-8`},{name:`viewport`,content:`width=device-width, initial-scale=1`},{title:Xu.locales.cs.seo.title},{name:`description`,content:Xu.locales.cs.seo.description},{property:`og:title`,content:Xu.locales.cs.seo.title},{property:`og:description`,content:Xu.locales.cs.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}],links:[{rel:`stylesheet`,href:Fu},{rel:`preconnect`,href:`https://fonts.googleapis.com`},{rel:`preconnect`,href:`https://fonts.gstatic.com`,crossOrigin:`anonymous`},{rel:`stylesheet`,href:`https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap`},{rel:`icon`,href:$u(Xu.logo),type:`image/svg+xml`}]}),shellComponent:sd,component:cd,notFoundComponent:id,errorComponent:ad});function sd({children:e}){return(0,V.jsxs)(`html`,{lang:`cs`,children:[(0,V.jsx)(`head`,{children:(0,V.jsx)(jl,{})}),(0,V.jsxs)(`body`,{children:[e,(0,V.jsx)(Nl,{})]})]})}function cd(){let{queryClient:e}=od.useRouteContext();return(0,V.jsx)(Pu,{client:e,children:(0,V.jsx)(gl,{})})}var ld=`modulepreload`,ud=function(e){return`/`+e},dd={},fd=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=ud(t,n),t=s(t),t in dd)return;dd[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:ld,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},pd=()=>fd(()=>import(`./routes-CQCGPTAk.js`),[]),md=Xu.locales.cs,hd=ol(`/`)({head:()=>({meta:[{title:md.seo.title},{name:`description`,content:md.seo.description},{property:`og:title`,content:md.seo.title},{property:`og:description`,content:md.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`},...Xu.robots?[{name:`robots`,content:Xu.robots}]:[]],links:Xu.canonical?[{rel:`canonical`,href:Xu.canonical}]:[]}),component:sl(pd,`component`)}),[gd,,,,,,]=Xu.media.gallery.photos.map($u),_d={IndexRoute:hd.update({id:`/`,path:`/`,getParentRoute:()=>od})},vd=od._addFileChildren(_d),yd=()=>Sl({routeTree:vd,context:{queryClient:new Mu},scrollRestoration:!0,defaultPreloadStaleTime:0});async function Q(){let e=await yd(),t;if(Bl){let n=await Bl.getOptions();n.serializationAdapters=n.serializationAdapters??[],window.__TSS_START_OPTIONS__=n,t=n.serializationAdapters,e.options.defaultSsr=n.defaultSsr}else t=[],window.__TSS_START_OPTIONS__={serializationAdapters:t};return t.push(Vs),e.options.serializationAdapters&&t.push(...e.options.serializationAdapters),e.update({basepath:``,serializationAdapters:t}),e.stores.ids.get().length||await Jn(e),e}var bd=Q;function xd(){return bd().finally(()=>window.$_TSR?.h())}var Sd;function Cd(){return Sd||=xd(),(0,V.jsx)(qs,{promise:Sd,children:e=>(0,V.jsx)(Tl,{router:e})})}var wd=g();(0,B.startTransition)(()=>{(0,wd.hydrateRoot)(document,(0,V.jsx)(B.StrictMode,{children:(0,V.jsx)(Cd,{})}))});export{Gs as a,Zu as i,Xu as n,u as o,ed as r,c as s,$u as t};
